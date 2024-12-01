@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="unit.css">
+</head>
+<body>
+
+    <div id="conversion-tool">
+
+        <form action="">
+            <h1 id="h1"> ** <span style="color:bisque">UNIT CONVERTER </span>**</h1>
+            <label for="input-value">Value</label>
+            <input type="number" id="input-value" min="0">
+            <br>
+
+
+            <label for="to-unit">Convert</label>
+
+            <select name="" id="to-unit">
+                <option value="inches">Inches</option>
+                <option value="feet">feet</option>
+                <option value="centimeters">centimeters</option>
+                <option value="pounds">pounds</option>
+                <option value="kilograms">kilograms</option>
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="celesius">celesius</option>
+            </select>
+            <br>
+
+            <label for="from-unit">Convert To</label>
+
+            <select name="" id="from-unit">
+                <option value="inches">Inches</option>
+                <option value="feet">feet</option>
+                <option value="centimeters">centimeters</option>
+                <option value="pounds">pounds</option>
+                <option value="kilograms">kilograms</option>
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="celesius">celesius</option>
+            </select>
+
+            <br>
+            <button type="button" id="convert-btn">Convert</button>
+            <p id="ans">Converted Value  = <span id="output-value"></span></p>
+        </form>
+
+    </div>
+
+
+    <script src="unit.js"></script>
+
+</body>
+</html>
